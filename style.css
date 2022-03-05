@@ -1,0 +1,96 @@
+/*Colors and Fonts*/
+h2, h3{
+	font-family: 'Gideon Roman', cursive;
+}
+
+h1{
+	color: #BF9270;
+	font-weight: 0,700;
+	letter-spacing: 10px;
+	font-size: 32px;
+	font-family: 'Kaushan Script';
+}
+
+h2 {
+	color: #6C4A4A;
+	background-color: rgba(237, 205, 187, 0.5);
+	font-size:26px;
+	font-weight: 0,400;
+}
+body{
+	background: rgba(247, 236, 222, 0.75);
+	color: #1C0A00;
+	font-family: 'Lato', sans-serif;
+	font-weight: 550;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+/*Custom design with class*/
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-beige{
+	border: 1px solid rgba(247, 236, 222, 0.1);
+	background-color: rgba(247, 236, 222, 0.75);
+	padding: 15px 40px 15px 40px;
+	margin: 20px;
+	box-shadow: 8px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	text-align: center;
+}
+
+.img-circle{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	text-align: center;
+	margin: auto;
+	display: flex;
+}
+
+.btn-brown{
+	background-color: #BF9270;
+	color: white;
+	padding: 8px 16px;
+	letter-spacing: 1px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.btn-brown:hover{
+	background-color: #6C4A4A;
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 30px;
+}
+
+.list-inline i {
+	color: #BF9270;
+	text-decoration: none;
+	font-weight: bold;
+	transition: color 0.3s ease;
+	font-size: 40px;
+}
+
+.list-inline i:hover{
+	color: #361500;
+}
+
+/*Design adjustements using id*/
+#introduction p{
+	margin-bottom: 40px;
+}
+#introduction{
+	padding-bottom: 40px;
+}
